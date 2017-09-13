@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            div {
+                text-align: center;
+                margin: auto;
+                width: 90%; 
+                line-height: 1.8;
+            }
+            </style>
+    </head>
+    <link href="restaurantStyles.css"
+        rel="stylesheet"
+        type="text/css" />
+    <body>
+        <header>
+        <h1>Wonder Woman's Cafe</h1>
+        <hr>
+        <a href="HomePage.html">Home</a>    <a href="Menu.html">Menu</a>     <a href="ContactUs.html">Contact Us</a>
+        <hr>
+        </header>
+        <form action="#" method="post">
+            <div>
+                <label id="NameLabel" for="Name">Name: </label>
+                <input id="FullName" name="FullName" type="text" />
+            </div>
+            <div>
+                <label id="EmailLabel" for="FullEmail">Email: </label>
+                <input id="Email" name="Email" type="text" />
+            </div>
+            <div>
+                <label id="PhoneLabel" for="Phone">Phone: </label>
+                <input id="Phone" name="Phone" type="text" />
+            </div>
+            <div>
+                <label id="Reason" for="Inquiry">Reason for Inquiry: </label>
+                <Select name="Inquiry">
+                    <option value="Catering">Catering</option>
+                    <option value="Private Party">Private Party</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                </Select>
+            </div>
+            <div>
+                <label id="MessageLabel" for="Message">Additional Information: </label>
+                <br><textarea id="Message" name="Message"></textarea>
+            </div>
+            <div>
+            <label id="Been" for="PreviousVisit">Have you been to the restaurant? </label>
+            <input type="radio" name="answer" value="Yes"/>Yes 
+            <input type="radio" name="answer" value="No"/> No
+            </div>
+            <div>
+            <label id="BestContact" for="FollowUp">Best day to contact you: </label>
+            <input type="checkbox" name="DayofWeek" value="M"/> M 
+            <input type="checkbox" name="DayofWeek" value="T"/> T
+            <input type="checkbox" name="DayofWeek" value="W"/> W  
+            <input type="checkbox" name="DayofWeek" value="Th"/> Th
+            <input type="checkbox" name="DayofWeek" value="F"/> F            
+            </div>
+            <div>
+                <input type="submit" id="SubmitButton" value="Send Request" />
+            </div>
+        </form>
+        <hr>
+        <footer>
+            <address> 100 Main Street, Aurora, Ohio 44202<br/>
+            (330) 888-5612</address>
+        </footer>    
+    </body>
+</html>
