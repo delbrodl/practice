@@ -1,0 +1,11 @@
+h2 {
+    text-decoration: underline;
+}
+
+h1 {
+    color: red;
+}
+body {
+    background-color: rgba(211, 211, 211, 0.63);
+    text-align: center;
+}
