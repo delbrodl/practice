@@ -6,3 +6,6 @@ header {
     display: block;
     text-align: center;
 }
+h1 {
+    font-family: "helvetica", sans-serif;
+}
