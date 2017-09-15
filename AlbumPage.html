@@ -3,7 +3,7 @@
     <head>
         <title>AlbumPage</title>
         <style>
-            h2 {
+            .bandNames {
                 text-decoration: underline;
             }
             ul {
@@ -21,6 +21,19 @@
                 margin: 0px;
                 font-style: italic;
             }
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+                background-color: lightgoldenrodyellow;
+            }
+            td {
+                font-style: italic
+            }
+            tbody tr:nth-child(odd) {
+                background-color: whitesmoke
+            }
         </style>
         <link href="albumStyles.css"
             rel="stylesheet"
@@ -33,7 +46,7 @@
         <h2><a href="www.johnnyswim.com">Johnnyswim</a></h2>
         <h3>October 14, 2016</h3>
         <hr>
-        <h2>Band Members and Producers</h2>
+        <h2 class="bandNames">Band Members and Producers</h2>
         <div>
         <ul>
             <li>Abner Ramirez </li> 
@@ -44,11 +57,11 @@
         <br>
         <table border="1" width="100%">
             <caption style="color:white; font-weight:bold; font-size:xx-large">Tracks</caption>
-            <tr bgcolor="grey">
+            <thead bgcolor="grey">
                 <th>Track #</th>
                 <th>Track Title</th>
                 <th>Track Length</th>
-            </tr>
+            </thead>
             <tr>
                 <td>1</td>
                 <td>Welcome to Georgica Pond</td>
