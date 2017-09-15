@@ -9,3 +9,12 @@ header {
 h1 {
     font-family: "helvetica", sans-serif;
 }
+a:visited {
+    color: blue;
+}
+a:hover {
+    font-weight: bold
+}
+a:active {
+    text-decoration: none
+}

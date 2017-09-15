@@ -3,16 +3,26 @@
     <head>
        <title>Menu</title>
        <style>
-           div {
+           .table1 {
                text-align: center;
                margin: auto;
                width: 90%; 
            }
            th {
-               font-size: larger
+               font-size: larger;
+               text-decoration: underline;
+               height: 25px;
+           }
+           td {
+               height: 25px;
            }
            body {
                background-color: rosybrown
+           }
+           table.center {
+               margin-left: auto;
+               margin-right: auto;
+               width: 20%;
            }
        </style>
     </head> 
@@ -27,7 +37,7 @@
         <hr>
         </header>
         <div>
-            <table>
+            <table class="table1">
                 <thead>
                     <tr>
                         <th>Burger and Fries</th>
@@ -71,6 +81,32 @@
                             Cole Slaw <br>Served with our famous thick-cut fries<br>
                             $7.95</td>
                     </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="center">
+                <thead>
+                    <tr>
+                        <th colspan="2">Beverages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Root Beer</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Water</td>
+                        <td>$1.25</td>
+                    </tr>
+                    <tr>
+                        <td>Lemonade</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Tea</td>
+                        <td>$1.25</td>
                 </tbody>
             </table>
         </div>
