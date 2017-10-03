@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
        <title>Wonder Woman's Cafe</title>
+       <link href="jumbotron-narrow.css" rel="stylesheet">
        <style>
-           div {
-               background-color:royalblue;
+           div.description {
+               background-color:gray;
            }
        </style>
     </head>
@@ -15,13 +20,24 @@
         <header>
         <h1>Wonder Woman's Cafe</h1>
         <hr>
-        <a href="HomePage.html">Home</a>    <a href="Menu.html">Menu</a>     <a href="ContactUs.html">Contact Us</a>
+        <ul class="nav nav-pills nav-justified">
+            <li class="active"><a href="HomePage.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+        <br>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Coming Soon!</h1>      
+                <p>Wonder Woman's Cafe is adding a new location, coming January 2018. Check back for more details soon.</p>
+            </div>     
+        </div>
         <hr>
         </header>
-        <div>
+        <div class="description"><br>
             <img src="images/wonderwoman.jpg"
                 style="display: block; margin: auto; width: 40%"/><br/>
-            <div style="margin:auto; width: 70%; border: 2px solid orange; padding: 10px; text-align:center">
+            <div style="margin:auto; width: 70%; border: 2px solid white; padding: 10px; text-align:center">
                 <b>Restaurant Description</b><br/>
                 Wonder Woman's Cafe serves nothing but the best. This is a description of who we are and what we serve. I could go on and on, but there is no use...
                 Lorem ipsum dolor sit amet, magna sed quia, elit non 
@@ -29,7 +45,7 @@
                 purus quis at dolor a, felis nunc massa pede cras 
                 quis. Lacinia fusce, praesent at pede phasellus, dui 
                 etiam in luctus.
-            </div>
+            </div><br>
         </div>
         <hr>
         <footer>
